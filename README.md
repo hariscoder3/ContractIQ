@@ -61,7 +61,7 @@ contractiq/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:hariscoder3/ContractIQ.git
    cd contractiq
    ```
 
