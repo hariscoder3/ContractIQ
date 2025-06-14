@@ -4,12 +4,12 @@ echo "🚀 Starting ContractIQ..."
 
 # Try to install dependencies using pip3
 echo "📦 Installing/updating dependencies..."
-pip3 install --user -r requirements.txt
+pip install --user -r requirements.txt
 
 # Check if streamlit is available, if not try to install it
 if ! command -v streamlit &> /dev/null; then
     echo "🔧 Streamlit not found, installing..."
-    pip3 install --user streamlit>=1.28.0
+    pip install --user streamlit>=1.28.0
 fi
 
 # Start Streamlit app
