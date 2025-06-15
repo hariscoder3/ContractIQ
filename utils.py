@@ -18,7 +18,7 @@ load_dotenv()
 
 # Initialize OpenAI client (now using Novita AI)
 openai_client = OpenAI(
-    api_key=os.getenv("NOVITA_API_KEY"),
+    api_key=st.secrets["NOVITA_API_KEY"],
     base_url=os.getenv("NOVITA_BASE_URL", "https://api.novita.ai/v3/openai")
 )
 
