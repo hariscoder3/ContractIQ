@@ -6,6 +6,7 @@ import logging
 from pymilvus import MilvusClient, utility, DataType, CollectionSchema, FieldSchema
 from pymilvus import connections, Collection, FieldSchema, CollectionSchema, DataType
 import uuid
+import streamlit as st
 
 # Setup logging with reduced verbosity
 logging.basicConfig(
